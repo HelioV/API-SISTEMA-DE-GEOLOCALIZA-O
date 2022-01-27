@@ -1,0 +1,21 @@
+<table>
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Pais</th>
+      <th>Província</th>
+      <th>Latitude</th>
+      <th>Longitude</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let localizacao of localizacoes">
+      <td>{{localizacao.nome}}</td>
+      <td>{{localizacao.pais}}</td>
+      <td>{{localizacao.provincia}}</td>
+      <td>{{localizacao.latitude}}</td>
+      <td>{{localizacao.longitude}}</td>
+    </tr>
+  </tbody>
+
+</table>

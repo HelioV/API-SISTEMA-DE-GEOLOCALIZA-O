@@ -1,0 +1,21 @@
+
+nb-card{
+  width: 550px;
+  height: 300px;
+}
+.down-options{
+  margin-left: 20px;
+  margin-top: 12px;
+}
+input,nb-select{
+  margin-left: 8px;
+  margin-top: 8px;
+}
+.buttons-options{
+    width: 338px;
+    margin-left: 59px;
+    margin-top: 20px;
+}
+button{
+      margin-left: 25px;
+}

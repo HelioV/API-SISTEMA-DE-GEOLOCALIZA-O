@@ -1,0 +1,10 @@
+<nb-card >
+  <nb-card-body class="example-items-col" [nbSpinner]="false" nbSpinnerStatus="success">
+    <input type="text" nbInput fullWidth placeholder="Nome Completo" aria-label="nome">
+    <input type="text" nbInput fullWidth placeholder="Palavra Chave" aria-label="nome">
+    <div class="buttons-options">
+      <button nbButton >Cancelar</button>
+      <button nbButton status="success" (click)="entrarAdmin()">Entrar</button>
+    </div>
+  </nb-card-body>
+</nb-card>

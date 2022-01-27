@@ -1,0 +1,15 @@
+
+
+  <nb-layout>
+    <nb-layout-header>
+       <div class="navbar">
+          <button nbButton status="basic" (click)="openAdmin()">Admin</button>
+          <button nbButton status="success" (click)="openLocation()">Inserir Localização</button>
+          <button nbButton status="info" (click)="refreshPage()">Atualizar Página</button>
+    </div>
+    </nb-layout-header>
+  <nb-layout-column class="colored-column-danger">
+    <app-mapa-geral></app-mapa-geral>
+  </nb-layout-column>
+    <nb-layout-footer>Criado por Hélio Vicente Buozo Viegas</nb-layout-footer>
+  </nb-layout>

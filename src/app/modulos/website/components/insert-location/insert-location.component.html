@@ -1,0 +1,23 @@
+<nb-card >
+  <nb-card-body class="example-items-col" >
+
+    <form [formGroup]="formularioLocalizacao">
+      <input type="text" nbInput fullWidth placeholder="Nome Completo" aria-label="nome" formControlName="nome">
+      <div class="down-options">
+        <input type="text" nbInput  placeholder="Seu País" aria-label="nome" formControlName="pais">
+        <input type="text" nbInput  placeholder="Província" aria-label="es" formControlName="provincia">
+        <input type="text" nbInput  placeholder="Latitude" aria-label="nome" formControlName="latitude">
+        <input type="text" nbInput  placeholder="Longitude" aria-label="es" formControlName="longitude">
+      </div>
+      <div class="buttons-options">
+        <button nbButton (click)="CancelarTudo()">Cancelar</button>
+        <button nbButton status="success" (click)="efetuarCadastro()">Cadastrar</button>
+      </div>
+  </form>
+
+  <nb-alert [nbSpinner]="carregando" nbSpinnerStatus="info">
+           {{messagemDeResultado}}
+  </nb-alert>
+
+  </nb-card-body>
+</nb-card>
