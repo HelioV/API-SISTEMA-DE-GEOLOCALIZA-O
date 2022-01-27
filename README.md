@@ -1,7 +1,7 @@
 # SISTEMA DE GEOLOCALIZAÇÃO MUNDIAL
 PARA O USO DA API TEMOS DUAS ALTERNATIVAS
 
-LARAVEL (PADRÃO) 
+LARAVEL 
 
 Temos em app\services\map.service na linha 10 a urlAPI
 
